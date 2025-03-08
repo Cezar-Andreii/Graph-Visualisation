@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>10</y>
+      <width>120</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Graf</string>
+    </property>
+    <widget class="QRadioButton" name="radioOriented">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>112</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Orientat</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioUnoriented">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>50</y>
+       <width>112</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Neorientat</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="checkTreeButton">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>110</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Verifica arbore</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="findRootButton">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>160</y>
+      <width>83</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CautaRadacina</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="showConnectedComponentsButton">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>210</y>
+      <width>83</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ShowConnectedComponents</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="runKruskalButton">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>290</y>
+      <width>83</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kruskall</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="calculateGenericTreeButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>290</y>
+      <width>83</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Generic</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="calculatePrimMSTButton">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>290</y>
+      <width>83</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Prim</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="HighlightButton">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>290</y>
+      <width>83</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>boruvka</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
